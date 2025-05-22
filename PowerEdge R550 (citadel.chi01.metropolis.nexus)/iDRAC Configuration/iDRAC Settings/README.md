@@ -18,6 +18,7 @@
 - Auto Config -> DHCP Provisioning -> Disabled
 - IPv4 Settings -> Disable DHCP, use 1.1.1.2 and 1.0.0.2 as DNS servers
 - IPv6 Settings -> Disable Autoconfiguration, use 2606:4700:4700::1111 and 2606:4700:4700::1001 as DNS servers
+- IPMI Settings -> Disable IPMI over LAN
 
 #### Serial Over LAN
 - Disable Serial Over LAN

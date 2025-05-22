@@ -1,8 +1,7 @@
 ## Configuration
 
 ### Power Management
-
-- Set power cap according to the colocation plan. This server is capped at 624W.
+- Do **NOT** enable power cap. It breaks BIOS live scanning.
 - Set power to A/B Grid redundant.
 - Make sure hot spare is enabled.
 
