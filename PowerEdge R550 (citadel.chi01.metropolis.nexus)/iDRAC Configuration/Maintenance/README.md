@@ -11,6 +11,15 @@
 
 Get the current certificate with: `</dev/null openssl s_client -connect <downloads.dell.com's IP>:443 -servername downloads.dell.com | openssl x509 > dell.cert`
 
+### Automatic Updates
+
+**Automatic Updates is only enabled for the time being, before proper Secure Boot can be set up with Proxmox.**
+- Enable Automatic Update
+- Location Type: HTTPS
+- Use default address
+- Uncheck "Apply Downgrade Versions"
+- Start: 23:00 (We start 1 hour before BIOS Live scanning)
+
 ### Diagnostics
 
 - BIOS Live Scanning -> Daily
