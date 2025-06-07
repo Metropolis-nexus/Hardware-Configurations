@@ -13,6 +13,7 @@
 
 ### System settings
 - Thermal Profile Optimization -> Maximum Performance
+- Fan speed offset -> Low (Shouldn't be needed, but the P4608 drives *allegedly* has very low max operating temperature according to *some websites*)
 - Maximum PCIe Inlet Temperature Limit -> 45 °C
 
 ### BIOS Setting
