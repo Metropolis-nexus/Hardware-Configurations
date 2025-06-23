@@ -12,6 +12,14 @@
 - Upgrade to Datacenter license
 
 ### System settings
+
+#### Alert Configuration
+- Alerts -> Enable
+- Quick Alert Configuration -> Select all categories, critical and warning, recieve notifications with email
+- Alert Configuration -> Security Event -> Enable informational email notifications
+- SMTP (Email) Configuration -> Add email address to receive notifications and check the "State" checkbox
+
+#### Hardware Settings
 - Thermal Profile Optimization -> Maximum Performance
 - Fan speed offset -> Low (Shouldn't be needed, but the P4608 drives *allegedly* has very low max operating temperature according to *some websites*)
 - Maximum PCIe Inlet Temperature Limit -> 45 °C

@@ -57,3 +57,8 @@
 
 #### Management USB Settings
 - Disable iDRAC Managed: USB SCP
+
+#### SMTP (Email) Server Settings
+- Set up SMTP as usual
+    - Sender Email Address must be set - iDRAC will not use the username as email address otherwise
+    - Use STARTTLS with Stalwart - SSL/TLS does not work
